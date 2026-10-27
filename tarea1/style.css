@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    height: 100vh;
+}
+
+[id^="row"] {
+    display: flex;
+    height: 200px;
+    justify-content: center;
+    color: white;
+    width: 100%;
+}
+
+#row1 {
+    background-color: #199d38;
+}
+
+#row2 > div:nth-child(1) {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    background-color: magenta;
+}
+
+#row2 > div:nth-child(2) {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    background-color: peru;
+}
+
+#row3 > div:nth-child(1) {
+    display: flex;
+    justify-content: center;
+    width: 33.33%;
+    background-color: aqua;
+}
+#row3 > div:nth-child(2) {
+    display: flex;
+    justify-content: center;
+    width: 33.33%;
+    background-color: blue;
+}
+#row3 > div:nth-child(3) {
+    display: flex;
+    justify-content: center;
+    width: 33.33%;
+    background-color: red;
+}
+
+#row4 > div:nth-child(1) {
+    display: flex;
+    text-align: center;
+    width: 25%;
+    background-color: yellow;
+}
+
+#row4 > div:nth-child(2) {
+    display: flex;
+    text-align: center;
+    width: 25%;
+    background-color: saddlebrown;
+}
+#row4 > div:nth-child(3) {
+    display: flex;
+    text-align: center;
+    width: 25%;
+    background-color: #497c53;
+}
+#row4 > div:nth-child(4) {
+    display: flex;
+    text-align: center;
+    width: 25%;
+    background-color: aqua;
+}
+
+#row5 > div:nth-child(1) {
+    display: flex;
+    text-align: center;
+    width: 20%;
+    background-color: lightgreen;
+}
+
+#row5 > div:nth-child(2) {
+    display: flex;
+    text-align: center;
+    width: 20%;
+    background-color: magenta;
+}
+#row5 > div:nth-child(3) {
+    display: flex;
+    text-align: center;
+    width: 20%;
+    background-color: mediumslateblue;
+}
+#row5 > div:nth-child(4) {
+    display: flex;
+    text-align: center;
+    width: 20%;
+    background-color: red;
+}
+#row5 > div:nth-child(5) {
+    display: flex;
+    text-align: center;
+    width: 20%;
+    background-color: peru;
+}
